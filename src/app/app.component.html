@@ -1,0 +1,54 @@
+<!-- <div class="main text-center mt-5 w-50 mx-auto">
+    <h1 class="head">Registration Form</h1>
+
+    <!--registration form-->
+    <!-- <form class="form mt-5 text-muted" #ref="ngForm" (ngSubmit)="addUserData(ref)"> 
+        <div class="form-floating mt-3">
+            <!--add username-->
+            <!-- <input type="text" name="username" id="un" class="form-control" placeholder="Username" autocomplete="off" ngModel>
+            <label for="un" class="">Add Username</label>    
+        </div>
+
+        <div class="form-floating mt-3">
+            <input type="date" name="dob" id="db" class="form-control" placeholder="birth" ngModel>
+            <label for="db" class=""></label>
+        </div>
+
+        <div class="form-floating mt-3">
+            <input type="email" name="mail" id="em" class="form-control" placeholder="maidid" autocomplete="off" ngModel>
+            <label for="em">Mail id</label>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-dark">Register</button>
+        </div>
+    </form>
+
+    <h3 class="mt-4 text-danger">List of Users</h3>
+    <hr>
+    <p class="text-muted" *ngIf="users.length==0">No users found</p>
+    <div class="accordion" id="acrd">
+        <div class="accordion-item" *ngFor="let data of users;let ind=index">
+            <div class="accordion-header">
+                <button class="accordion-button text-center" data-bs-toggle="collapse" [attr.data-bs-target]="'#acr' + ind">
+                    <h5 class="">{{data.username}}</h5>
+                    <button class="btn delete" (click)="deleteData(ind)"><i class="fas fa-trash-alt"></i></button>
+                </button>
+            </div>
+            
+            <div class="accordion-collapse collapse p-2" data-bs-parent="#acrd" [attr.id]="'acr' + ind">
+                <div class="accordian-body mt-2">
+                    <p class="mb-0 pb-0">Date of Birth : {{data.dob}} </p>
+                    <p class="mb-0 pb-0">Mail id : {{data.mail}} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> --> 
+
+<h1 class="head text-center mt-2 display-2 text-danger">Products Component</h1>
+<div class="container">
+    <app-products></app-products>
+</div>
+
+<app-footer class="footer w-100"></app-footer>

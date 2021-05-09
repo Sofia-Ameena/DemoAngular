@@ -1,0 +1,12 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-product6',
+  templateUrl: './product6.component.html',
+  styleUrls: ['./product6.component.css']
+})
+export class Product6Component {
+
+  imagePath:string="http://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg"
+
+}
