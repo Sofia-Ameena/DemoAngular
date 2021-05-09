@@ -32,10 +32,8 @@ button:hover{
 }*/
 
 .head{
+    font-family: 'Orelega One', cursive;
     font-weight:normal;
 }
 
-.footer{
-    position: absolute;
-    bottom: 0px;
-}
+

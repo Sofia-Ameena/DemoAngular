@@ -1,0 +1,13 @@
+.card{
+    max-width: 300px;
+}
+button{
+    box-shadow: none !important;
+    background-color: indianred;
+}
+button:hover{
+    background-color:rgb(48, 47, 47);
+}
+img{
+    height: 10em;
+}
