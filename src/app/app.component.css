@@ -1,39 +1,10 @@
-/*h1{
-    font-family: 'Orelega One', cursive;
+.active{
+    font-weight: bolder;
+    background-color: white;
 }
-.form-control{
-    box-shadow: none !important;
-    border: none;
-    background-color: transparent;
-    border-bottom: 1px solid black;
+.nav-link{
+    font-size: 1.1em;
 }
-.form-control:focus{
-    border-bottom: 1px solid black;
-}
-input{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-.accordion-button{
-    box-shadow: none !important;
-}
-.accordion-button:hover{
-    color:black;
-    background-color:lightblue;
-}
-.accordion-button:focus{
-    background-color: lightblue;
-}
-button{
-    box-shadow: none !important;
-}
-button:hover{
-    color:lightgray;
-}*/
 
-.head{
-    font-family: 'Orelega One', cursive;
-    font-weight:normal;
-}
 
 

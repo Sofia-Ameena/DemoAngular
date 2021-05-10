@@ -13,6 +13,10 @@ import { Product6Component } from './product6/product6.component';
 import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     Product6Component,
     ProductsComponent,
     FooterComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    HomeComponent,
+    RegisterComponent,
+    LoginComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
