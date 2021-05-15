@@ -1,6 +1,9 @@
 .active{
     font-weight: bolder;
-    background-color: white;
+    background-color: rgb(238, 238, 238);
+}
+nav li a:focus{
+    color: white;
 }
 .nav-link{
     font-size: 1.1em;

@@ -1,5 +1,8 @@
 .card{
-    max-width: 300px;
+    max-width: 280px;
+}
+.card-title{
+    font-size: 1.1em;
 }
 button{
     box-shadow: none !important;
@@ -8,6 +11,7 @@ button{
 button:hover{
     background-color:rgb(48, 47, 47);
 }
-img{
-    height: 10em;
+img
+{
+    height: 255px;
 }

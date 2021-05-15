@@ -50,8 +50,6 @@ export class HomeComponent {
       productTitle:"Headphones",
       productDescription:"₹2000"
     }
-
   ]
-
 }
 

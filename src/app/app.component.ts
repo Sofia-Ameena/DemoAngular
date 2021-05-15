@@ -7,18 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  users=[];
-  addUserData(ref){
-    let userObj=ref.value;
-
-    this.users.push(userObj);
-    ref.reset();
-  }
-
-  deleteData(ind){
-    this.users.splice(ind,1);
-  }
-
 
 }
 

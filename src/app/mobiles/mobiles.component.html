@@ -1,0 +1,5 @@
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 mt-3 mb-5">
+    <div class="col" *ngFor="let card of products">
+        <app-product-details [prodObj]="card" class=""></app-product-details>
+    </div>
+</div>
