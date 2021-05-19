@@ -1,0 +1,18 @@
+<table class="table text-center mt-4 table-bordered border table-striped">
+    <thead class="">
+        <th>ID</th>
+        <th>Name</th>
+        <th>Year</th>
+        <th>Color</th>
+        <th>Pantone Value</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dataObj of myData.data">
+            <td class=""> {{dataObj.id}} </td>
+            <td> {{dataObj.name}} </td>
+            <td> {{dataObj.year}} </td>
+            <td> {{dataObj.color}} </td>
+            <td> {{dataObj.pantone_value}} </td>
+        </tr>
+    </tbody>
+</table>

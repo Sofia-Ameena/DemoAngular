@@ -1,0 +1,36 @@
+<table class="table text-center mt-4 table-bordered table-striped">
+    <thead class="bg-dark text-white">
+        <th>ID</th>
+        <th>Name</th>
+        <th>User Name</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Website</th>
+        <th>Company</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let userObj of myUsers">
+            <td class=""> {{userObj.id}} </td>
+            <td> {{userObj.name}} </td>
+            <td> {{userObj.username}} </td>
+            <td> {{userObj.email}} </td>
+            <td> 
+                <p><b>Street: </b>{{userObj.address.street}}</p> 
+                <p><b>Suite: </b> {{userObj.address.suite}} </p>
+                <p><b>Zipcode: </b> {{userObj.address.zipcode}} </p>
+                <p> <b>Geo:</b>
+                    <li><b>Lat: </b>{{userObj.address.geo.lat}}</li> 
+                    <li><b>Lng: </b>{{userObj.address.geo.lng}}</li>
+                </p>
+            </td>
+            <td> {{userObj.phone}} </td>
+            <td> {{userObj.website}} </td>
+            <td> <b>Company:</b>
+                <p><b>Name: </b> {{userObj.company.name}} </p>
+                <p><b>Catch Phrase</b> {{userObj.company.catchPhrase}} </p>
+                <p><b>Bs: </b> {{userObj.company.bs}} </p>
+             </td>
+        </tr>
+    </tbody>
+</table>
