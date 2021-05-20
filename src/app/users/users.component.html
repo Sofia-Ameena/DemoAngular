@@ -1,0 +1,13 @@
+<table class="table text-center text-dark mt-4 table-hover table-warning">
+    <thead class="bg-dark text-white">
+        <th>ID</th>
+        <th>EMAIL ID</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let usersObj of usersData">
+            <td><a href="" (click)="onSelectId(usersObj.id)">{{usersObj.id}}</a></td>
+            <td>{{usersObj.email}}</td>
+        </tr>
+    </tbody>
+</table>
+

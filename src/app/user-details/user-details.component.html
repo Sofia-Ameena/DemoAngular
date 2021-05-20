@@ -1,0 +1,23 @@
+<table class="table mt-5 text-center table-primary">
+    <thead class="bg-dark text-white">
+        <th>Name</th>
+        <th>Profile Pic</th>
+        <th>Address</th>
+        <th>Profession</th>
+        <th>Mobile no.</th>
+        <th></th>
+    </thead>
+    <tbody class="">
+        <tr>
+            <td>{{userDetails.name}}</td>
+            <td><img src={{userDetails.profilePic}} alt=""></td>
+            <td>
+                <p><b>City/Town: </b>{{userDetails.address.city}}</p>
+                <p><b>State: </b>{{userDetails.address.state}}</p>
+                <p><b>Zipcode: </b>{{userDetails.address.zipcode}}</p>
+            </td>
+            <td>{{userDetails.profession}}</td>
+            <td>{{userDetails.mobileno}}</td>
+        </tr>
+    </tbody>
+</table>

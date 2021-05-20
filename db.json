@@ -1,0 +1,134 @@
+{
+    "users":[
+        {
+          "id": 1,
+          "email": "abc@gmail.com",
+          "name": "Naina",
+          "profilePic": "https://reqres.in/img/faces/7-image.jpg",
+          "address": {
+            "city": "Hyderabad",
+            "state": "Telangana",
+            "zipcode": "500054"
+          },
+          "profession": "Front-end-engineeer",
+          "mobileno": "9787878787"
+        },
+        {
+          "id": 2,
+          "email": "qwe@gmail.com",
+          "name": "Bunny",
+          "profilePic": "https://reqres.in/img/faces/8-image.jpg",
+          "address": {
+            "city": "Yanam",
+            "state": "Puducherry",
+            "zipcode": "500011"
+          },
+          "profession": "Actor",
+          "mobileno": "9494949494"
+        },
+        {
+          "id": 3,
+          "email": "rty@gmail.com",
+          "name": "Saqib",
+          "profilePic": "https://reqres.in/img/faces/9-image.jpg",
+          "address": {
+            "city": "Eluru",
+            "state": "Andhra Pradesh",
+            "zipcode": "500022"
+          },
+          "profession": "Architect",
+          "mobileno": "9595959595"
+        },
+        {
+          "id": 4,
+          "email": "uio@gmail.com",
+          "name": "Abraham",
+          "profilePic": "https://reqres.in/img/faces/10-image.jpg",
+          "address": {
+            "city": "Mumbai",
+            "state": "Maharastra",
+            "zipcode": "500033"
+          },
+          "profession": "Artist",
+          "mobileno": "9292929292"
+        },
+        {
+          "id": 5,
+          "email": "asd@gmail.com",
+          "name": "Kajal",
+          "profilePic": "https://reqres.in/img/faces/12-image.jpg",
+          "address": {
+            "city": "Banglore",
+            "state": "Karnataka",
+            "zipcode": "500044"
+          },
+          "profession": "Banker",
+          "mobileno": "9030502080"
+        },
+        {
+          "id": 6,
+          "email": "fgh@gmail.com",
+          "name": "Kabir",
+          "profilePic": "https://reqres.in/img/faces/11-image.jpg",
+          "address": {
+            "city": "Delhi",
+            "state": "Delhi",
+            "zipcode": "500055"
+          },
+          "profession": "Dentist",
+          "mobileno": "9191919191"
+        },
+        {
+          "id": 7,
+          "email": "jkl@gmail.com",
+          "name": "Sree",
+          "profilePic": "https://reqres.in/img/faces/1-image.jpg",
+          "address": {
+            "city": "Amaravati",
+            "state": "Andhra Pradesh",
+            "zipcode": "500066"
+          },
+          "profession": "Electrician",
+          "mobileno": "9797979797"
+        },
+        {
+          "id": 8,
+          "email": "zxc@gmail.com",
+          "name": "Sam",
+          "profilePic": "https://reqres.in/img/faces/2-image.jpg",
+          "address": {
+            "city": "Chennai",
+            "state": "Tamil Nadu",
+            "zipcode": "500077"
+          },
+          "profession": "Doctor",
+          "mobileno": "9393939393"
+        },
+        {
+          "id": 9,
+          "email": "vbn@gmail.com",
+          "name": "Bob",
+          "profilePic": "https://reqres.in/img/faces/4-image.jpg",
+          "address": {
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "zipcode": "500088"
+          },
+          "profession": "Bussinessman",
+          "mobileno": "9090909090"
+        },
+        {
+          "id": 10,
+          "email": "mnb@gmail.com",
+          "name": "Saeesha",
+          "profilePic": "https://reqres.in/img/faces/3-image.jpg",
+          "address": {
+            "city": "Ahmedabad",
+            "state": "Gujarat",
+            "zipcode": "500099"
+          },
+          "profession": "Accountant",
+          "mobileno": "9999999999"
+        }
+      ]
+}

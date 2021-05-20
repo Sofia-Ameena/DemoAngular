@@ -24,3 +24,4 @@ export class Data1Component implements OnInit {
     )
   }
 }
+

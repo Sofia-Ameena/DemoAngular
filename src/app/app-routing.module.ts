@@ -10,12 +10,16 @@ import { MobilesComponent } from './mobiles/mobiles.component';
 import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
+import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'register',component:RegisterComponent},
   {path:'login',component:LoginComponent},
   {path:'contactus',component:ContactUsComponent},
+  {path:'users',component:UsersComponent},
+  {path:'users/:id',component:UserDetailsComponent},
   {path:'data1',component:Data1Component},
   {path:'data2',component:Data2Component},
   {path:'products',component:ProductsComponent,children:[
